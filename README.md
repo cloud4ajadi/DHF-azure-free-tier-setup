@@ -207,7 +207,21 @@ This provides early warning before the free credit is exhausted.
 
 ---
 
-# 10. Security Best Practices
+# 10. Resource Cleanup
+
+After completing this project, delete any Azure resources you created to avoid unexpected charges, especially after your Azure Free Tier credits expire. The easiest way to clean up is to delete the entire Resource Group, which removes all resources contained within it.
+
+To delete a resource group:
+
+Sign in to the Azure Portal.
+Navigate to Resource groups.
+Select the resource group created for this project.
+Click Delete resource group.
+Type the resource group name to confirm, then click Delete.
+
+Before deleting, ensure you no longer need any of the resources or data they contain, as this action is permanent. Regularly reviewing and removing unused resources is a good cloud management practice that helps prevent unnecessary costs.
+
+# 11. Security Best Practices
 
 Cloud security is based on a Shared Responsibility Model.
 
@@ -243,7 +257,7 @@ Implementing these controls reduces the risk of unauthorised access.
 
 ---
 
-# 11. Challenges Encountered
+# 12. Challenges Encountered
 
 During the setup process, several challenges were encountered:
 
@@ -256,7 +270,7 @@ These challenges were overcome using Microsoft Learn documentation and Azure Por
 
 ---
 
-# 12. Troubleshooting
+# 13. Troubleshooting
 
 | Issue                      | Resolution                                        |
 | -------------------------- | ------------------------------------------------- |
@@ -267,7 +281,7 @@ These challenges were overcome using Microsoft Learn documentation and Azure Por
 
 ---
 
-# 13. Completion Checklist
+# 14. Completion Checklist
 
 ✓ Azure Free Tier account created
 
@@ -295,7 +309,7 @@ These challenges were overcome using Microsoft Learn documentation and Azure Por
 
 ---
 
-# 14. Conclusion
+# 15. Conclusion
 
 This project provided practical experience with Microsoft Azure cloud services. An Azure Free Tier account was successfully created, and key Azure features including Resource Groups, Storage Accounts, Cost Management, and Azure security practices were explored.
 
